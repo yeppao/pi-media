@@ -2,7 +2,8 @@ module.exports = {
     apps: [
       {
         name: 'pi-media',
-        script: './src/server/index.js',
+        script: 'yarn',
+        args: 'dev',
         cwd: '/home/nadia/pi-media',
         watch: false,
         log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
